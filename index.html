@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULADORA DE IMC</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="titulo">
     <h1>CALCULADORA DE MASA CORPORAL</h1>
+    </div>
+
+    <div class="formulario">
     <form action="">
         <label for="txtPeso">Peso:</label>
-        <input type="text" id="txtPeso" placeholder="Escribe en kg.">
+        <input class="rellenar" type="text" id="txtPeso" placeholder="Escribe en kg.">
         <br> <br>
         
         <label for="txtAltura">Altura:</label>
-        <input type="text" id="txtAltura" placeholder="Los decimales con punto [.]">
+        <input class="rellenar" type="text" id="txtAltura" placeholder="Los decimales con punto [.]">
         <br> <br>
         
-        <input type="submit" id="btnCalcular" value="Calcular">
+        <input class="calcular" type="submit" id="btnCalcular" value="CALCULAR">
     </form>
+    </div>
 <br>
-<img src="img/unnamed.jpg" alt="Tabla de Índice de Masa Corporal">
+<img class="imagen" src="img/unnamed.jpg" alt="Tabla de Índice de Masa Corporal">
     <script src="calculadora.js"></script>
 </body>
 </html>

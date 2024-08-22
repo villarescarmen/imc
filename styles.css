@@ -1,0 +1,65 @@
+div.titulo {
+    width:550px;
+    color:#1c0853;
+    background-color: #9b9bb4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'sans-serif';
+    border:#1c0853 3px solid;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+.formulario {
+    text-align: left;
+    justify-content: center;
+    width: 500px;
+    color: #ffffff;
+    border: #610808 3px solid;
+    background-color: #f06f6f;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*botón calcular*/
+.calcular{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;;
+    background-color: #be3535;
+    border: #610808 5px solid;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+
+/*etiquetas altura y peso*/
+label{
+    font-size: 14px;
+    color:#ffffff;
+    background-color: #c04343;
+    border-radius: 6px;
+    padding: 10px 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+
+/*los apartados donde hay que meter datos*/
+.rellenar{
+    font-size: 14px;
+    color:#ffffff;
+    background-color: #c04343;
+    border: #c04343 2px;
+    border-radius: 6px;
+    padding: 10px 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+input.placeholder{
+    color:#ffffff;
+}
+
+
+
